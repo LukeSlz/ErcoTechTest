@@ -4,7 +4,7 @@ def sort_list(input_list):
         for j in range(len(input_list) - 1):
             if input_list[j] > input_list[j + 1]:
                 input_list[j], input_list[j + 1] = input_list[j + 1], input_list[j]
-                #Fix in the previous line. The item 'input_list[j]' was being swapped by itself again, meaning no changes. Changed for [j + 1]
+                #Fix on the previous line. The item 'input_list[j]' was being swapped by itself again, meaning no changes. Changed for [j + 1]
     print(input_list)
     return input_list
 
